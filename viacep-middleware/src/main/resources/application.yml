@@ -1,0 +1,14 @@
+
+server:
+  port: 8080
+  
+spring:
+  application:
+    name: viacep-middleware
+    
+opentracing:
+  jaeger:
+    enabled: true
+    udp-sender:
+      host: localhost
+      port: 6831

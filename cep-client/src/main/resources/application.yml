@@ -1,0 +1,14 @@
+
+server:
+  port: 8081
+  
+spring:
+  application:
+    name: cep-client
+    
+opentracing:
+  jaeger:
+    enabled: true
+    udp-sender:
+      host: localhost
+      port: 6831
